@@ -268,10 +268,7 @@ public class Matrix {
                 }
 
             }
-            System.out.println(Arrays.deepToString(inverseMatrix));
-            System.out.println(Arrays.deepToString(controlMatrix));
-
-
+            
             System.out.println("The result is:");
             for (int i = 0; i < this.rows; i++) {
                 for (int j = 0; j < this.rows; j++) {
